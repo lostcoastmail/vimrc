@@ -45,6 +45,7 @@ set wildmenu
 set wildmode=longest,list,full
 set nowrap
 set writebackup
+syntax on
 colorscheme habamax
 autocmd FileType * setlocal formatoptions-=cro
 autocmd BufWritePost *xdefaults silent! !xrdb %
